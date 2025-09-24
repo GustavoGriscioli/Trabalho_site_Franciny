@@ -1,9 +1,14 @@
+    *{
+        padding: 0;
+        margin: 0;
+    }
     nav{
         display: inline-block;
     }
     #img2{
         display: inline-block;
         margin-right: 30vw;
+        padding-top: 10px;
     }
     #img3{
         margin-left: 40vw;
@@ -12,6 +17,7 @@
         background-color: black;
         text-align: center;
         color: rgb(255, 255, 255) ;
+        padding: 10px;
     }
     #spam1{
         color:  white;
@@ -19,3 +25,19 @@
     #spam2{
         color: gray;
     }
+   #td1{
+    width: 40%;
+    text-align: left;
+   }
+   #td2{
+    width: 40%;
+    text-align: right;
+   }
+   #td3{
+    width: 5%;
+    text-align: right;
+   }
+   #td4{
+    width: 5%;
+    text-align: right;
+   }

@@ -2,16 +2,14 @@
         padding: 0;
         margin: 0;
     }
-    nav{
-        display: inline-block;
+    body{
+        background-image: url("//franbyfr.com.br/cdn/shop/files/Rosto_2.jpg?v=1756752296&width=2000");
+        background-repeat: no-repeat;
+        
     }
-    #img2{
-        display: inline-block;
-        margin-right: 30vw;
+    #img2{  
         padding-top: 10px;
-    }
-    #img3{
-        margin-left: 40vw;
+        margin-bottom: 10px;
     }
     #p1{
         background-color: black;
@@ -19,25 +17,39 @@
         color: rgb(255, 255, 255) ;
         padding: 10px;
     }
-    #spam1{
-        color:  white;
-    }
-    #spam2{
-        color: gray;
-    }
-   #td1{
-    width: 40%;
-    text-align: left;
+   #rosto-da-mulher{
+    height: 350px;
+    width: 1365px;
    }
-   #td2{
-    width: 40%;
-    text-align: right;
+   .ancora{
+    text-decoration: none;
+    color: aqua;
+   
+    
    }
-   #td3{
-    width: 5%;
-    text-align: right;
+   #cabecalho{
+    display: flex;
+    justify-content: space-between; 
+    backdrop-filter: blur(5px);
    }
-   #td4{
-    width: 5%;
-    text-align: right;
+   #cabecalho input{
+    height: 30px;
+    margin-top: 15px;
+    border-radius: 10px;
+    background: #6e5239;
+    background: linear-gradient(90deg,rgba(110, 82, 57, 1) 34%, rgba(163, 110, 85, 1) 52%, rgba(194, 133, 112, 1) 71%);
+    width: 300px;
+   }
+   #icons{
+    margin-top: 15px;
+   }
+   #navegacao{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 10px 0 10px 0;
+    
+   }
+   #cabecalho ::placeholder{
+    color: white;
    }

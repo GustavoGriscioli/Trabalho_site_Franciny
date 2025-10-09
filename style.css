@@ -57,7 +57,7 @@
      display: flex;/* ele vai ativar o modelo flex box */
     justify-content: center;/*ele esta deixando em uma posiçao*/
     align-items: center;
-    min-height: 100vh;/* deixou no centro sem ficar jutandoque lugar vai esta as informaçoes*/
+    min-height: 70vh;/* deixou no centro sem ficar jutandoque lugar vai esta as informaçoes*/
     background-image: url(imagem/WhatsApp\ Image\ 2025-10-08\ at\ 02.55.58.png);
     background-size: contain;
     width: 370px;
@@ -83,4 +83,7 @@
     background-image: url(imagem/fundo-fRANCINE.webp);
     background-size:cover ;
     border: 10px solid black;
+   }
+   .Lançamentos{
+    background-image: url(imagem/fundo\ capa\ principal2.jpeg);
    }

@@ -2,14 +2,16 @@
         padding: 0;
         margin: 0;
     }
-    body{
-        background-image: url("//franbyfr.com.br/cdn/shop/files/Rosto_2.jpg?v=1756752296&width=2000");
-        background-repeat: no-repeat;
-        
+    nav{
+        display: inline-block;
     }
-    #img2{  
+    #img2{
+        display: inline-block;
+        margin-right: 30vw;
         padding-top: 10px;
-        margin-bottom: 10px;
+    }
+    #img3{
+        margin-left: 80px;
     }
     #p1{
         background-color: black;
@@ -17,39 +19,68 @@
         color: rgb(255, 255, 255) ;
         padding: 10px;
     }
-   #rosto-da-mulher{
-    height: 350px;
-    width: 1365px;
-   }
-   .ancora{
-    text-decoration: none;
-    color: aqua;
-   
+    #spam1{
+        color:  white;
+    }
+    #spam2{
+        color: gray;
+    }
+   #td1{
+    display:inline;
     
+    width: 40%;
+    text-align: left;
    }
-   #cabecalho{
-    display: flex;
-    justify-content: space-between; 
-    backdrop-filter: blur(5px);
+   #td2{
+    width: 40%;
+    text-align: right;
    }
-   #cabecalho input{
-    height: 30px;
-    margin-top: 15px;
-    border-radius: 10px;
-    background: #6e5239;
-    background: linear-gradient(90deg,rgba(110, 82, 57, 1) 34%, rgba(163, 110, 85, 1) 52%, rgba(194, 133, 112, 1) 71%);
-    width: 300px;
+   #td3{
+    width: 5%;
+    text-align: right;
    }
-   #icons{
-    margin-top: 15px;
+   #td4{
+    width: 5%;
+    text-align: right;
    }
-   #navegacao{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin: 10px 0 10px 0;
+
+   .cabeçario{
+    display:inline-flexbox;
+    min-width: 100%;
+    height: 600px;
+    background-image: url(imagem/franbrows.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+   }
+   .balao-clik{
+     display: flex;/* ele vai ativar o modelo flex box */
+    justify-content: center;/*ele esta deixando em uma posiçao*/
+    align-items: center;
+    min-height: 100vh;/* deixou no centro sem ficar jutandoque lugar vai esta as informaçoes*/
+    background-image: url(imagem/WhatsApp\ Image\ 2025-10-08\ at\ 02.55.58.png);
+    background-size: contain;
+    width: 370px;
+    height: 5px;
+    margin-left: 550px;
     
+    background-repeat: no-repeat;/* ele pega imagem e atapita no tamanho da tela */
+    background-position: center;
+    font-family: "Abril Fatface", serif;
+  font-weight: 1000;
+  font-size:  19px;
+  text-align: center;
+  color:blue;
    }
-   #cabecalho ::placeholder{
-    color: white;
+   .imagem-lançamento{
+    display:inline;
+    justify-content:space-between;
+
+   }
+   .conteine-francine{
+    width: 1493PX;
+    height: 550px;
+    background-image: url(imagem/fundo-fRANCINE.webp);
+    background-size:cover ;
+    border: 10px solid black;
    }

@@ -58,7 +58,7 @@
    .rosto {
     display: flex;
     align-items: center;
-    margin-top: 366px;
+    margin-top: 351px;
     flex-direction: column;
     padding: 30px;
     background-image: url(Imagem/1c904b5d-ddc1-49f4-a737-719a41da7685.jfif); 
@@ -67,7 +67,8 @@
     background-position: center;
     color: white;
     font-size: 14px;
-    border: 7px solid black;
+    border: 7px solid black ;
+    border-radius: 10px;
 
 
    }
@@ -97,3 +98,39 @@
     text-decoration: none;
     
    }
+   .imagens{
+    width: 400px;
+    height: 420px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+   }
+   #corretivo:hover{
+    transform: translateY(-6px);
+
+   }
+
+   #base:hover{
+    transform: translateY(-6px);
+
+
+   }
+   #primer:hover{
+    transform: translateY(-6px);
+    
+
+   }
+   #po:hover{
+    transform: translateY(-6px);
+    background-color: rgb(163, 163, 18);
+   }
+   #po{
+    display: inline;
+    background-color: blueviolet;
+    padding: auto;
+   }
+
+   #corretivo{
+    
+   }
+   

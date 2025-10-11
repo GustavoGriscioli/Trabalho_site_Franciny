@@ -88,6 +88,7 @@
     font-size: 20px;
     gap: 40px;
     justify-content: center;
+    margin-bottom: 20px;
    }
    .rosto{
     text-align: center;
@@ -96,33 +97,53 @@
     
     color: black;
     text-decoration: none;
+   
     
    }
-   .imagens{
-    width: 400px;
-    height: 420px;
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 30px;
-   }
-   #corretivo:hover{
-    transform: translateY(-6px);
+    .produtos {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; /* centraliza verticalmente */
+  width: 1270px;
+  max-width: 1800px; /* limite opcional */
+  padding: 0 40px; /* espaçamento lateral */
+  text-align: center;
+  background-color: #ffffff;
+}
 
-   }
+
+.produtos img {
+  max-width: 290px; /* cada imagem ocupa ~¼ do espaço */
+  background-color: aqua;
+  
+}
+
+.produtos a{
+    text-decoration: none;
+    color: black;
+}
+
+    #corretivo:hover{
+        transform: translateY(-6px);
+        box-shadow: 0px 8px 19px 1px rgba(0,0,0,0.73);
+
+    }
 
    #base:hover{
     transform: translateY(-6px);
+    box-shadow: 0px 8px 19px 1px rgba(0,0,0,0.73)
 
 
    }
    #primer:hover{
     transform: translateY(-6px);
+    box-shadow: 0px 8px 19px 1px rgba(0,0,0,0.73)
     
 
    }
    #po:hover{
     transform: translateY(-6px);
-    background-color: rgb(163, 163, 18);
+    box-shadow: 0px 8px 19px 1px rgba(0,0,0,0.73)
    }
    #po{
     display: inline;
@@ -130,7 +151,27 @@
     padding: auto;
    }
 
-   #corretivo{
+   .produtos p{
+    display: flex;
+   }
+   .imagem-corretivo{
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    padding: 7px;
     
    }
-   
+   .produtos:hover{
+    transform: translateY(-6px);
+   }
+
+   #base{
+    margin-bottom: 15px;
+    margin-top: 15px;
+   }
+   #po{
+    margin-bottom: 28px;
+   }
+
+   #primer{
+    margin-bottom: 28px;
+   }

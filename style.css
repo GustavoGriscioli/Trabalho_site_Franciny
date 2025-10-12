@@ -83,7 +83,30 @@
     background-image: url(imagem/fundo-fRANCINE.webp);
     background-size:cover ;
     border: 10px solid black;
+    
+   }
+     #quadrado-fran{
+        width: 470px;
+        height: 50px;
+    display:inline-flex;/* ele vai ativar o modelo flex box */
+    justify-content:center;/*ele esta deixando em uma posiçao*/
+    margin-top :70px; ;
+    margin-left: 19px;
+    background-color: transparent;
+    border:1px solid transparent;
+    
+   
+    
    }
    .Lançamentos{
     background-image: url(imagem/fundo\ capa\ principal2.jpeg);
    }
+ .video-do-prime{
+    width: 1500px;
+    height: 600px;
+    background-color: blue;
+ }
+ #vd{
+    height: 600px;
+    
+ }

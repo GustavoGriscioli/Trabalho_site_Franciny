@@ -160,9 +160,7 @@
     padding: 7px;
     
    }
-   .produtos:hover{
-    transform: translateY(-6px);
-   }
+   
 
    #base{
     margin-bottom: 15px;
@@ -174,4 +172,33 @@
 
    #primer{
     margin-bottom: 28px;
+   }
+
+   #C1:hover{
+    transform: translateY(-6px);
+    box-shadow: 0px 8px 19px 1px rgba(0,0,0,0.73)
+   }
+   #C1{
+    margin-bottom: 20px;
+   }
+   #M2:hover{
+    transform: translateY(-6px);
+    box-shadow: 0px 8px 19px 1px rgba(0,0,0,0.73)
+   }
+   #M2{
+    margin-bottom: 20px;
+   }
+   #M1:hover{
+    transform: translateY(-6px);
+    box-shadow: 0px 8px 19px 1px rgba(0,0,0,0.73)
+   }
+   #M1{
+    margin-bottom: 20px;
+   }
+   #C2:hover{
+    transform: translateY(-6px);
+    box-shadow: 0px 8px 19px 1px rgba(0,0,0,0.73)
+   }
+   #C2{
+    margin-bottom: 20px;
    }

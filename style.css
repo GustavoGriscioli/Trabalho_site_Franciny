@@ -54,7 +54,7 @@
 
    }
    .balao-clik{
-     display: flex;/* ele vai ativar o modelo flex box */
+    display: flex;/* ele vai ativar o modelo flex box */
     justify-content: center;/*ele esta deixando em uma posiçao*/
     align-items: center;
     min-height: 70vh;/* deixou no centro sem ficar jutandoque lugar vai esta as informaçoes*/
@@ -67,10 +67,10 @@
     background-repeat: no-repeat;/* ele pega imagem e atapita no tamanho da tela */
     background-position: center;
     font-family: "Abril Fatface", serif;
-  font-weight: 1000;
-  font-size:  19px;
-  text-align: center;
-  color:blue;
+    font-weight: 1000;
+    font-size:  19px;
+    text-align: center;
+    color:blue;
    }
    .imagem-lançamento{
     display:inline;

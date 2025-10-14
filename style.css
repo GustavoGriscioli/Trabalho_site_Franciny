@@ -99,14 +99,27 @@
     
    }
    .Lançamentos{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
     background-image: url(imagem/fundo\ capa\ principal2.jpeg);
    }
  .video-do-prime{
     width: 1500px;
-    height: 600px;
-    background-color: blue;
+    height: 800px;
+    
+    display: inline-flex;
+    border: 2px solid rgb(18, 17, 17);
  }
  #vd{
-    height: 600px;
+    display:flex;
+    margin-left:10px;
+    height: 800px;
+
+    
+ }
+ #vd1{
+    padding-left: 350px;
     
  }

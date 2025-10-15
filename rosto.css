@@ -180,6 +180,34 @@
    #primer{
     margin-bottom: 28px;
    }
+   #corretivo1{
+    margin-bottom: 28px;
+   }
+   #corretivo2{
+    margin-bottom: 28px;
+   }
+   #base1{
+    margin-bottom: 28px;
+   }
+   #base2{
+    margin-bottom: 28px;
+   }
+   #corretivo1:hover{
+    transform: translateY(-6px);
+    box-shadow: 0px 8px 19px 1px rgba(0,0,0,0.73)
+   }
+   #corretivo2:hover{
+    transform: translateY(-6px);
+    box-shadow: 0px 8px 19px 1px rgba(0,0,0,0.73)
+   }
+   #base1:hover{
+    transform: translateY(-6px);
+    box-shadow: 0px 8px 19px 1px rgba(0,0,0,0.73)
+   }
+   #base2:hover{
+    transform: translateY(-6px);
+    box-shadow: 0px 8px 19px 1px rgba(0,0,0,0.73)
+   }
 
    #C1:hover{
     transform: translateY(-6px);
@@ -237,7 +265,7 @@
  .imagemfooter img{
     width: 200px;
     height: 200px;
-    background-color: gray;
+    backdrop-filter: blur(8px);
     padding: 10px 50px 10px 50px;
  }
 
@@ -259,7 +287,4 @@
     font-size: 22px;
     text-align: center;
   }
-
-  .footerultima h1{
-
-  }
+  

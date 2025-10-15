@@ -25,7 +25,7 @@
    }
    .ancora{
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255) ;
    
     
    }
@@ -33,6 +33,8 @@
     display: flex;
     justify-content: space-between; 
     backdrop-filter: blur(5px);
+    
+
    }
    #cabecalho input{
     height: 30px;
@@ -41,9 +43,13 @@
     background: #6e5239;
     background: linear-gradient(90deg,rgba(110, 82, 57, 1) 34%, rgba(163, 110, 85, 1) 52%, rgba(194, 133, 112, 1) 71%);
     width: 300px;
+    
    }
    #icons{
     margin-top: 15px;
+    position: sticky;/* fica fixo ao rolar a pagina */
+    top: 0;/* distancia do topo */
+    z-index: 10;/* fica acima dos outros elementos   */
    }
    #navegacao{
     display: flex;
@@ -69,6 +75,7 @@
     font-size: 14px;
     border: 7px solid black ;
     border-radius: 10px;
+    
 
 
    }
@@ -202,3 +209,57 @@
    #C2{
     margin-bottom: 20px;
    }
+    .footer1{
+    text-align: center;
+    gap: 200px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 50px;
+ }
+ .footer1 input{
+    padding: 15px;
+    width: 500px;
+    margin-top: 8px;
+ }
+ .footer1 h2{
+    margin-bottom: 10px;
+ }
+ .imagemfooter{
+    background-image: url(imagem/fundo-fRANCINE.webp);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    
+ }
+ .imagemfooter img{
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    padding: 10px 50px 10px 50px;
+ }
+
+ .footerultima{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    gap: 40px;
+    
+ }
+
+ #pfooter{
+    font-size: 10px;
+    text-align: center;
+ }
+  #pfooter2{
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .footerultima h1{
+
+  }

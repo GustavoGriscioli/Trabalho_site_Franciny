@@ -301,3 +301,6 @@
     font-size: 22px;
     text-align: center;
   }
+  .cartoes{
+    cursor: pointer;
+  }

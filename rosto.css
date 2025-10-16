@@ -130,9 +130,6 @@
     color: black;
 }
 
-    #corretivo{
-        transition: 0.7s ease;
-    }
     #corretivo:hover{
         transform: translateY(-6px);
         box-shadow: 0px 8px 19px 1px rgba(0,0,0,0.73);
@@ -159,7 +156,6 @@
     display: inline;
     background-color: blueviolet;
     padding: auto;
-    transition: 0.7s ease;
    }
 
    .produtos p{
@@ -169,54 +165,20 @@
     background-color: rgb(255, 255, 255);
     margin-top: 10px;
     padding: 7px;
+    
    }
    
 
    #base{
     margin-bottom: 15px;
     margin-top: 15px;
-    transition: 0.7s ease;
    }
    #po{
     margin-bottom: 28px;
-    transition: 0.7s ease;
    }
 
    #primer{
     margin-bottom: 28px;
-    transition: 0.7s ease;
-   }
-   #corretivo1{
-    margin-bottom: 28px;
-    transition: 0.7s ease;
-   }
-   #corretivo2{
-    margin-bottom: 28px;
-    transition: 0.7s ease;
-   }
-   #base1{
-    margin-bottom: 28px;
-    transition: 0.7s ease;
-   }
-   #base2{
-    margin-bottom: 28px;
-    transition: 0.7s ease;
-   }
-   #corretivo1:hover{
-    transform: translateY(-6px);
-    box-shadow: 0px 8px 19px 1px rgba(0,0,0,0.73)
-   }
-   #corretivo2:hover{
-    transform: translateY(-6px);
-    box-shadow: 0px 8px 19px 1px rgba(0,0,0,0.73)
-   }
-   #base1:hover{
-    transform: translateY(-6px);
-    box-shadow: 0px 8px 19px 1px rgba(0,0,0,0.73)
-   }
-   #base2:hover{
-    transform: translateY(-6px);
-    box-shadow: 0px 8px 19px 1px rgba(0,0,0,0.73)
    }
 
    #C1:hover{
@@ -225,7 +187,6 @@
    }
    #C1{
     margin-bottom: 20px;
-    transition: 0.7s ease;
    }
    #M2:hover{
     transform: translateY(-6px);
@@ -233,7 +194,6 @@
    }
    #M2{
     margin-bottom: 20px;
-    transition: 0.7s ease;
    }
    #M1:hover{
     transform: translateY(-6px);
@@ -241,7 +201,6 @@
    }
    #M1{
     margin-bottom: 20px;
-    transition: 0.7s ease;
    }
    #C2:hover{
     transform: translateY(-6px);
@@ -249,7 +208,6 @@
    }
    #C2{
     margin-bottom: 20px;
-    transition: 0.7s ease;
    }
     .footer1{
     text-align: center;
@@ -279,7 +237,7 @@
  .imagemfooter img{
     width: 200px;
     height: 200px;
-    backdrop-filter: blur(8px);
+    background-color: gray;
     padding: 10px 50px 10px 50px;
  }
 

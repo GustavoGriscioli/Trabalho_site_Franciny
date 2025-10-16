@@ -3,7 +3,7 @@
         margin: 0;
     }
     body{
-        background-image: url("//franbyfr.com.br/cdn/shop/files/Rosto_2.jpg?v=1756752296&width=2000");
+        background-image: url("img-pg-labios/labios.webp");
         background-repeat: no-repeat;
         
         
@@ -130,29 +130,29 @@
     color: black;
 }
 
-    #corretivo:hover{
+    #liphoney:hover{
         transform: translateY(-6px);
         box-shadow: 0px 8px 19px 1px rgba(0,0,0,0.73);
 
     }
 
-   #base:hover{
+   #batom-liquido:hover{
     transform: translateY(-6px);
     box-shadow: 0px 8px 19px 1px rgba(0,0,0,0.73)
 
 
    }
-   #primer:hover{
+   #stick:hover{
     transform: translateY(-6px);
     box-shadow: 0px 8px 19px 1px rgba(0,0,0,0.73)
     
 
    }
-   #po:hover{
+   #love:hover{
     transform: translateY(-6px);
     box-shadow: 0px 8px 19px 1px rgba(0,0,0,0.73)
    }
-   #po{
+   #love{
     display: inline;
     background-color: blueviolet;
     padding: auto;
@@ -167,17 +167,47 @@
     padding: 7px;
     
    }
+
+   #lipbunny:hover{
+    transform: translateY(-6px);
+    box-shadow: 0px 8px 19px 1px rgba(0,0,0,0.73)
+}
+ 
+    #lipbunny{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#lipbunny:hover{
+    transform: translateY(-6px);
+    box-shadow: 0px 8px 19px 1px rgba(0,0,0,0.73)
+}
+ 
+    #lipbunny{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#lipbunny:hover{
+    transform: translateY(-6px);
+    box-shadow: 0px 8px 19px 1px rgba(0,0,0,0.73)
+}
+ 
+    #lipbunny{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
    
 
-   #base{
+   #batom-liquido{
     margin-bottom: 15px;
     margin-top: 15px;
    }
-   #po{
+   #love{
     margin-bottom: 28px;
    }
 
-   #primer{
+   #stick{
     margin-bottom: 28px;
    }
 
@@ -259,6 +289,4 @@
     font-size: 22px;
     text-align: center;
   }
-  .cartoes{
-    cursor: pointer;
-  }
+

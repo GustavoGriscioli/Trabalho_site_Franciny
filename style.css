@@ -53,6 +53,10 @@
     background-repeat: no-repeat;
 
    }
+   .cabeçario-pagina{
+    text-align: center;
+   }
+   
    .balao-clik{
     display: flex;/* ele vai ativar o modelo flex box */
     justify-content: center;/*ele esta deixando em uma posiçao*/
